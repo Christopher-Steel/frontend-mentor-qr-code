@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
 html {
   height: 100%;
   font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
 }
 
 body {
@@ -18,7 +21,6 @@ body {
   width: 280px;
   display: flex;
   flex-direction: column;
-  font-family: "Outfit Regular";
   border-radius: 20px;
   padding: 20px;
   text-align: center;
@@ -32,7 +34,6 @@ body {
 
 .container h1 {
   font-size: 2.1rem;
-  font-family: "Outfit Heavy";
   font-weight: 700;
   color: hsl(218, 44%, 22%);
   margin-top: 25px;
